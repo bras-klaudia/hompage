@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta cherset="UTF-8">
+    <title>Praca domowa - tydzień 4+BEM</title>
+    <meta name="discription" content="Opis strony">
+    <meta nema="viewport" content="width=device-width, initial.scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />"
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <script defer src="script.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body  class="container">
+
+    
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#o-mnie">O mnie</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#przygody">Przygody</a></li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#kontakt">Kontakt</a></li>
+
+        </ul>
+    </nav>
+    <header class="header">
+        <img src="images/zdjęcie.jpg" class="header__photo" title="Klaudia Braś">
+        <h1>Strona internetowa - tydzień 3</h1>
+    </header>
+    <section class="section" id="o-mnie">
+        <h2 class="section__h2">O mnie</h2>
+
+        <p>
+            <span class="section__bold">Cześć! </span> Mam na imię Klaudia i mam 22 lata.<span class="section__bold">
+                Obecnie
+                studiuję</span> i odkąd panuje powszechny koronowirus pracuję zdalnie. Z wykształcenia jestem
+            logistykiem, ale <span class="section__bold">zobaczymy, gdzie moją duszę jeszcze poniesie.</span>
+            Chciałabym
+            swoją przyszłość w pewien związać sposób z branżą kreatywną, tudzież graficzną czy IT.
+        <p>W tym celu muszę jeszcze duużo ćwiczyć i bardziej motytować się do działania. </p>
+
+    </section>
+    <section class="section" id="zainteresowania">
+        <h2 class="section__h2">Zainteresowania</h2>
+        <p>
+
+            Jeśli chodzi o moje pasje - to jest problem! Nie potrafię poświęcić się tylko jednej rzeczy, by ją
+            stale pielęgnować. <span class="section__bold">Uwielbiam próbować nowych rzeczy </span> - stąd też
+            udział w
+            kursie YouCode. Bardzo lubię widzieć efekt swojej pracy, dlatego niekiedy robię na drutach, czy
+            ostatnio zafascynowałam się wypalaniem breloczków w drewnie. Dostałam takie super urządzenie!
+        <p>
+            Dodatkowo uwielbiam przebywać na świeżym powietrzu.<span class="section__bold"> Natura, lasy, góry,
+                łąki - to
+                moje idealne towarzystwo.</span> JesieniąF przedzieram górskie szlaki, a latem staram się
+            wyskoczyć na żaglówki czy kajaki. Mam patent żeglarski, ale nie odważyłabym się jeszcze wziąć łódki
+            na swoją odpowiedzialność.
+
+        </p>
+    </section>
+
+    <section class="section" id="przygody"></section>
+    <h2 class="section__h2">Przygody</h2>
+    <table class="table">
+        <caption class="table__caption">Moje przygody</caption>
+        <thead>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="col">Destynacja</th>
+                <th class="table__cell table__header" scope="col">Czas trwania</th>
+                <td class="table__cell table__header" scope="col">Dystans</th>
+                <td class="table__cell table__header" scope="col">Zrealizowano?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Rejs Darem Młodzieży</th>
+                <td class="table__cell" class="table__class">lipiec-sierpień 2018</td>
+                <td class="table__cell" class="table__class">Teneryfa-Kapsztad</td>
+                <td class="table__cell" class="table__class">TAK!</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Panama - Światowe Dni Młodzieży</th>
+                <td class="table__cell" class="table__class">22-27 stycznia 2019</td>
+                <td class="table__cell" class="table__class">-</td>
+                <td class="table__cell" class="table__class">TAK!</td>
+            </tr>
+            <tr class="table__row">
+                <td class="table__cell table__header" scope="row">Islandia</th>
+                <td class="table__cell" class="table__class">2 tygodnie</td>
+                <td class="table__cell" class="table__class">Cała Islandia!</td>
+                <td class="table__cell" class="table__class">Jeszcze nie!</td>
+            </tr>
+            <tr class="table__row">
+                <td class="table__cell table__header" scope="row">Podróż autostopem</th>
+                <td class="table__cell" class="table__class">2 -5 maja 2019</td>
+                <td class="table__cell" class="table__class">Bielsko-Biała > Brno > Wiedeń > Kraków</td>
+                <td class="table__cell" class="table__class">TAK!</td>
+            </tr>
+            <tr class="table__row">
+                <td class="table__cell table__header" scope="row">Starorobociański Wierch</th>
+                <td class="table__cell" class="table__class">1 dzień</td>
+                <td class="table__cell" class="table__class"> 22 km</td>
+                <td class="table__cell" class="table__class">Jeszcze nie!</td>
+            </tr>
+    </table>
+    </section>
+
+    <section class="section__contact" id="kontakt" class="contact">
+        <h2 class="section__h2">Kontakt</h2>
+
+        Jeśli chcesz sie ze mną skontaktować możesz do mnie napisać <a class="section__mail"
+            href="mailto:bras.klaudia@gmil.com">bras.klaudia@gmail.com</a>
+    </section>
+    <section class="section__button"><button class="section__buttonStyle">Zmień kolor tła</button></section>
+
+
+    <footer class="footer">
+        2020 - Wszelkie prawa zastrzeżone - Klaudia Braś
+    </footer>
+
+
+
+</body>
+
+</html>

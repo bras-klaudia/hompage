@@ -1,0 +1,41 @@
+.section {
+    line-height: 1.5;
+}
+
+.section__h2 {
+    border-bottom: solid 2px black;
+    padding-bottom: 20px;
+}
+
+.section__bold {
+    font-weight: 900;
+    color: rgb(238, 158, 11);
+}
+
+.section__button {
+    text-align: center;
+    margin: auto, 20px;
+    padding: 20px;
+}
+
+.section__buttonStyle {
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-color: white;
+    text-decoration: none;
+}
+
+.section__buttonStyle:hover {
+    background-color: rgb(238, 158, 11);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.section__mail {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}

@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    color: rgb(238, 158, 11);
+}
+.header__photo {
+    height: 200px;
+    width: 200px;
+    background-image: url(images/zdjęcie.jpg);
+    background-size: contain;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin:40px auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.192) 2px 2px 4px 4px;
+
+}
