@@ -4,6 +4,14 @@
 
 https://bras-klaudia.github.io/homepage/
 
-## Opis
+## Description
 
 Powinnam dodać ładny opis projektu
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+
+## Methodologies
+- BEM
