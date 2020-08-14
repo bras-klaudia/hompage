@@ -6,7 +6,7 @@ https://bras-klaudia.github.io/homepage/
 
 ## Description
 
-Powinnam dodać ładny opis projektu
+It's my first website for learning based on below technologies. 
 
 ## Technologies
 - HTML
